@@ -16,6 +16,7 @@ To prevent this, the project POM contains empty overrides for these elements.
 If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
 
 ### Set-up
-* https://docs.camunda.io/docs/self-managed/setup/deploy/local/docker-compose/#run-camunda-8-with-docker-compose
-  * docker compose --env-file .\dev\docker-compose-8.7\.env -f .\dev\docker-compose-8.7\docker-compose-core.yaml up -d
-
+* Ref: https://docs.camunda.io/docs/self-managed/setup/deploy/local/docker-compose/#run-camunda-8-with-docker-compose
+  * Docker should already be available and running on your machine 
+  * Run ```docker compose --env-file .\dev\docker-compose-8.7\.env -f .\dev\docker-compose-8.7\docker-compose-core.yaml up -d``` from project root.
+* Sample bpmn and related files available under camunda-modeler folder
