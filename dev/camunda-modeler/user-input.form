@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "label": "Task",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16b87o1",
+        "columns": null
+      },
+      "id": "Field_0sftc9q",
+      "key": "task",
+      "description": "task 1 or 2",
+      "defaultValue": "1"
+    },
+    {
+      "label": "Full Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16b87o1",
+        "columns": null
+      },
+      "id": "Field_0xnp6lc",
+      "key": "fullName",
+      "description": "Full name of user",
+      "defaultValue": "NA"
+    }
+  ],
+  "type": "default",
+  "id": "ID-user-input",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.36.1"
+  },
+  "schemaVersion": 18
+}
