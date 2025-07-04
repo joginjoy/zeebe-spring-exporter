@@ -60,32 +60,6 @@
 		</dependency>
 	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>artifactory-maven-central</id>
-			<name>Maven Central Repository</name>
-			<url>https://artifactory.swisscom.com/artifactory/maven-remote</url>
-		</repository>
-		<repository>
-			<id>artifactory-confluent</id>
-			<name>Confluent</name>
-			<url>https://artifactory.swisscom.com/artifactory/confluent-maven-remote</url>
-		</repository>
-	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>artifactory-maven-central</id>
-			<name>Maven Central Repository</name>
-			<url>https://artifactory.swisscom.com/artifactory/maven-remote</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>artifactory-confluent</id>
-			<name>Confluent</name>
-			<url>https://artifactory.swisscom.com/artifactory/confluent-maven-remote</url>
-		</pluginRepository>
-	</pluginRepositories>
-
 	<build>
 		<plugins>
 			<plugin>
